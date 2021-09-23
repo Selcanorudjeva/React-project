@@ -1,0 +1,168 @@
+nav{
+    background-color: #FCB800;
+    height: 90px;
+}
+nav .navbar-brand{
+    color: #023047;
+    font-size: 40px;
+    font-weight: 700;
+}
+nav .navbar-brand span{
+    color: white;
+}
+.container-fluid{
+    display: flex;
+    width: 70% !important;
+    justify-content: space-around !important;
+    transform: translate(0px,-5px);
+}
+.formmain {
+    width: 57%;
+}
+.form-control{
+    border-radius: 1px;
+}
+.dropdown{
+    transform: translate(-60px,0px);
+}
+.dropdown .dropdown-menu{
+        height: 300px;
+    overflow-y: scroll;
+}
+.fa-shopping-cart{
+    text-decoration: none !important;
+    color: black !important;
+}
+.totalit{
+    text-decoration: none !important;
+    color: black !important;
+}
+.searchbut{
+    background-color: #023047 !important;
+    color: white !important;
+    border-radius: 0.5px !important;
+    transform: translate(-67px,0px);
+}
+.btn-check:focus+.btn, .btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 0 rgb(13 110 253 / 25%);
+}
+.trikonki i{
+margin-right: 20px;
+font-size: 25px;
+}
+
+.trikonki i span{
+    font-size: 15px;
+    transform: translate(0px,-50px);
+}
+
+.itemler{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.maindiv{
+    width: 20%; 
+   
+}
+h5{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    width: 80%;
+    margin-top: 10px !important;
+}
+.card-text{
+font-weight: 100;
+color: rgb(99, 98, 98);
+}
+.card-price{
+    color: #d43811;
+    padding: 0;
+    transform: translate(0px,-10px) !important;
+}
+.littlediv{
+    background-color: #F5F5F5;;
+    width: 50%;
+    height: 40px;
+    float: right;
+    transform: translate(0px,-40px);
+    opacity: 0;
+    transition: 1s;
+    display: flex;
+    justify-content: space-evenly;
+}
+.littlediv i{
+transform: translate(0px,7px);
+font-size: 20px;
+cursor: pointer;
+}
+.fa-heart:hover{
+    color: red;
+}
+.fa-star{
+    color: #FFCE01;
+    margin-right: 5px;
+}
+.cart{
+    margin-bottom: 20px;
+    margin-right: 10px;  
+    height: 500px;
+}
+.photo{
+    width: 100%;
+    height: 300px;
+}
+.cart:hover > .littlediv{
+    opacity: 1;
+}
+.fa-shopping-cart:hover{
+    color: goldenrod;
+}
+section{
+    width: 70% !important;
+
+}
+
+.second-navbar-line{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+.dropdowns{
+    display: flex;
+}
+#dropdownMenu2{
+    background-color: #F5F5F5;;
+    color: black;
+    border: none;
+    margin-right: 20px;
+    font-weight: 200 !important;
+    transform: translate(30px,0px);
+}
+#dropdownMenu2:hover{
+    border-bottom:orange ;
+
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgb(0 0 0/ 0%);
+}
+
+.btn-check:focus+.btn-secondary, .btn-secondary:focus {
+    color: #fff;
+    background-color: #F5F5F5 !important;
+    border-color: #ffffff00 !important;
+    box-shadow: 0 0 0 0rem rgb(0 0 0 / 0%) !important;
+}
+.alldeparetments{
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    transform: translate(160px,0px);
+}
+.owldiv{
+    width: 100%;
+}

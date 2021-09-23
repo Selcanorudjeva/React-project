@@ -1,0 +1,273 @@
+h5{
+    font-family: 'Satisfy', cursive;
+    font-weight: 500;
+}
+button{
+    border: none;
+    transform: translate(0px,-5px);
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgb(207, 207, 207);
+  }
+  
+  button:hover{
+    border: none;
+    border-radius: 15px;
+    box-shadow: inset 0 0 8px #f9f8fc;
+    } 
+  
+   #foot{
+    position: relative;
+    top: 15px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 8px #d9d4e7;
+    width: 120px;
+    height: 50px;
+    background-color: #d9d4e7;
+    animation-duration: 3s;
+  }
+  
+  .button-os{
+     position: absolute;
+      width: 120px;
+      height: 50px;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      border-radius: 13px;
+      background-color: #f9f8fc;
+      border: 2.5px solid #0e172c;
+      transition: background-color 2s;
+      transition-duration: 2s;
+      transition: 1s;
+    }
+    
+    .button-os:hover{
+      position: absolute;
+      top: 10px;
+      background-color: #fec7d7;
+    }
+    
+    .button-os a{
+      font-size: 15px;
+      display: block;
+      text-decoration: none;
+      color:#0e172c;
+      transition: 1.5s;
+    }
+
+/* 
+ 
+
+/* CSS */
+.button-82-pushable {
+  top: 30px;
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-82-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-82-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+    to left,
+    hsl(100deg 100% 50%) 0%,
+    hsl(140deg 100% 50%) 8%,
+    hsl(170deg 100% 50%) 9%,
+    hsl(160deg 100% 40%) 50%
+  );
+}
+
+.button-82-front {
+  display: block;
+  position: relative;
+  padding: 12px 27px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background: hsl(345deg 100% 47%);
+  will-change: transform;
+  transform: translateY(-4px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+@media (min-width: 768px) {
+  .button-82-front {
+    font-size: 1rem;
+    padding: 5px 25px;
+  }
+}
+
+.button-82-pushable:hover {
+  filter: brightness(110%);
+}
+
+.button-82-pushable:hover .button-82-front {
+  transform: translateY(-6px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:hover .button-82-shadow {
+  transform: translateY(4px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:focus:not(:focus-visible) {
+  outline: none;
+}
+
+
+/* <!-- HTML !-->
+<button class="button-24" role="button">Button 24</button>
+
+CSS */
+.button-24 {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  transform: translate(10px,20px);
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+table{
+    transform: translate(-140px,0px);
+}
+.totalprice{
+    transform: translate(0px,50px);
+    font-family: 'Handlee', cursive;
+}
+.card-total{
+    transform: translate(300px,0px);
+    font-size: 26px;
+    font-family: 'Handlee', cursive;
+}
+
+.yourempty{
+    width: 20%;
+    transform: translate(800px,90px);
+    font-family: 'Handlee', cursive;
+}
+
+.card-title{
+      font-family: 'Handlee', cursive;
+}
+.card-text{
+  font-family: 'Handlee', cursive;
+}
+.card-price{
+      font-family: 'Handlee', cursive;
+}
+
+.m-2{
+    width: 3%;
+  height: 40px;
+}
+.buynow{
+    transform: translate(0px,2px);
+    width: 5%;
+    background-color: rgb(15, 122, 90);
+    color: white;
+    height: 40px;
+}
+
+.buynow:hover{
+    border-radius: 1px;
+}
+
+.tdprice{
+  font-size: 20px;
+  transform: translate(0px,30px);
+    font-family: 'Handlee', cursive;
+}
+.tdquantity{
+  font-size: 20px;
+  transform: translate(0px,30px);
+    font-family: 'Handlee', cursive;
+}
+.tdtitle{
+  font-size: 20px;
+  transform: translate(0px,30px);
+    font-family: 'Handlee', cursive;
+}

@@ -1,0 +1,379 @@
+body{
+    background-color: #09080D;
+}
+
+.navbar{
+    .container-fluid{
+        transform: translate(400px,0px);
+    }
+    background-color: #121117;
+    .collapse{
+        transform: translate(100px,0px);
+        ul{
+            
+            .search{
+                transform: translate(100px,0px);
+                .fa-search{
+                    color: white;
+                    margin-right: 15px;
+                    padding-top: 15px;
+                    cursor: pointer;
+                }
+                .btn-outline-light{
+                    width: 240px;
+                    cursor: pointer;
+                    height: 50px;
+                    border-radius: 30px;
+                    margin-left: 9px;
+                    color: white;
+                    transition: 0.5s;
+                    &:hover{
+                        transition: 0.5s;
+                background: rgb(69,38,216);
+                background: linear-gradient(90deg, rgba(69,38,216,1) 0%, rgba(87,42,190,1) 49%, rgba(84,10,153,1) 100%);
+                color: white;
+                border: 1px solid rgb(69,38,216);;
+                    }
+
+                    .fa-wallet{
+                        margin-right: 8px;
+                    }
+                }
+            }
+            li{
+                margin-right: 15px;
+                margin-top: 5px;
+                .dropdown-item{
+                    color: #121117;
+                }
+                font-size: 17px;
+                letter-spacing: 0.5px;
+                font-weight: 600;
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.show{
+    transform: translate(0px,0px);
+}
+/////////////////////////////////// Page1
+
+.page-1{
+    width: 100%;
+    background-color: #09080D;
+    height: 620px;
+    .item1{
+    color:rgb(69,38,216);
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    letter-spacing: 1px;
+    transform: translate(400px,-500px);
+    .line{
+        margin-top: 14px;
+        margin-left: 5px;
+        width: 3%;
+        height: 4px;
+        background: rgb(107,81,233);
+background: linear-gradient(90deg, rgba(107,81,233,1) 0%, rgba(52,42,190,1) 38%, rgba(159,64,247,1) 66%);
+}
+    }
+    .discover{
+        font-size: 55px;
+        font-weight: 800;
+        width: 28%;
+        transform: translate(400px,-490px);
+        color: white;
+        line-height: 70px;
+    }
+    .txt{
+        color: rgb(122, 122, 122);
+        transform: translate(400px,-480px);
+        font-size: 20px;
+    }
+    .buttons{
+        transform: translate(380px,-470px);
+    }
+    .button1{
+        width: 240px;
+        cursor: pointer;
+        height: 50px;
+        border-radius: 30px;
+        margin-left: 9px;
+        color: white;
+        transition: 0.5s;
+        &:hover{
+            transition: 0.5s;
+    background: rgb(69,38,216);
+    background: linear-gradient(90deg, rgba(69,38,216,1) 0%, rgba(87,42,190,1) 49%, rgba(84,10,153,1) 100%);
+    color: white;
+    border: 1px solid rgb(69,38,216);;
+        }
+    }
+}
+////////////////////////// Page2
+.page-2{
+    width: 100%;
+    height: 700px;
+    background-color: #09080D;
+
+    .item1{
+        color:rgb(69,38,216);
+        font-weight: 500;
+        font-size: 18px;
+        display: flex;
+        letter-spacing: 1px;
+        transform: translate(360px,90px);
+        
+        .line{
+            margin-top: 14px;
+            margin-left: 5px;
+            width: 3%;
+            height: 4px;
+            background: rgb(107,81,233);
+    background: linear-gradient(90deg, rgba(107,81,233,1) 0%, rgba(52,42,190,1) 38%, rgba(159,64,247,1) 66%);
+    }
+        }
+
+        .live{
+         color: white;
+         transform: translate(360px,100px);   
+        }
+
+    .carousel{
+        width: 100%;
+        transform: translate(0px,150px);
+        cursor: pointer;
+        height: 600px;
+    }
+    .carousel-item{
+        display: flex;
+       flex-direction: row;
+
+        .card{
+            width: 15%;
+            height: 490px;
+border-radius: 10px;
+margin-right: 40px;
+transition: 1s;
+&:hover{
+    transition: 1s;
+    transform: translate(0px,-20px);
+}
+.date{
+    .days{
+            display: flex;
+            flex-direction: row;
+            transform: translate(0px,20px);
+            li{
+                color: white;
+                font-weight: 500;
+                list-style: none;
+                margin-right: 10px;
+            }
+    }
+    .numbers{
+        display: flex;
+            flex-direction: row;
+            transform: translate(0px,20px);
+            li{
+                color: white;
+                font-weight: 500;
+                list-style: none;
+                margin-right: 39px;
+            }
+    }
+}
+        .photograhy{
+            color: white;
+            font-size: 18px;
+            transform: translate(30px,20px);
+            transition: 1s;
+            &:hover{
+                transition: 1s;
+                color: #4528DC;
+            }
+        }
+        .photoava{
+            display: flex;
+            flex-direction: row;
+            transform: translate(30px,25px);
+            .avatar{
+                border-radius: 30px;
+                width: 50px;
+                height: 50px;
+            }
+            span{
+                color: white;
+                padding-top: 10px;
+                padding-left: 10px;
+                transition: 1s;
+                &:hover{
+                    transition: 1s;
+                    color: #4528DC;
+                }
+            }
+        }
+        .lastline{
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+            color: white;
+            transform: translate(30px,40px);
+        }
+            .auction{
+                width: 250px;
+                height: 230px;
+                border-radius: 20px;
+                margin-left: 15px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+///////////////////////// Page3
+
+.page-3{
+    width: 100%;
+    height: 700px;
+    background-color: #09080D;
+    .item1{
+        color:rgb(69,38,216);
+        font-weight: 500;
+        font-size: 18px;
+        display: flex;
+        letter-spacing: 1px;
+        transform: translate(360px,150px);
+        .line{
+            margin-top: 14px;
+            margin-left: 5px;
+            width: 3%;
+            height: 4px;
+            background: rgb(107,81,233);
+    background: linear-gradient(90deg, rgba(107,81,233,1) 0%, rgba(52,42,190,1) 38%, rgba(159,64,247,1) 66%);
+    }
+        }
+        .sellers{
+            color: white;
+            font-family: 'Jost', sans-serif;
+            font-size: 40px;
+            font-weight: 800;
+            letter-spacing: 0.5px;
+            transform: translate(360px,150px);
+        }
+
+      .obsaya{
+          width: 70%;
+          height: 300px;
+          display: flex;
+          flex-wrap: wrap;
+          margin: 0;
+          padding: 0;
+          transform: translate(360px,200px);
+        .kolonna{
+            width: 30%;
+            
+            height: 120px;
+            background-color: #121117;
+            display: flex;
+            flex-direction: row;
+            border-radius: 10px;
+            margin-right: 30px;
+            a{
+                img{
+                    border-radius: 35px;
+                    width: 65px;
+                    height: 65px;
+                    transform: translate(20px,30px);
+                }
+            }
+            .colonka{
+                transform: translate(40px,32px);
+                .name{
+                    color: white;
+                    font-weight: 500;
+                }
+                span{
+                    color: white;
+                    font-weight: 500;
+                }
+            }
+        }
+      }
+}
+/////////////////////////////////Page4
+
+.page-4{
+    width: 100%;
+    height: 1200px;
+    .item1{
+        color:rgb(69,38,216);
+        font-weight: 500;
+        font-size: 18px;
+        display: flex;
+        letter-spacing: 1px;
+        transform: translate(360px,60px);
+        .line{
+            margin-top: 14px;
+            margin-left: 5px;
+            width: 3%;
+            height: 4px;
+            background: rgb(107,81,233);
+    background: linear-gradient(90deg, rgba(107,81,233,1) 0%, rgba(52,42,190,1) 38%, rgba(159,64,247,1) 66%);
+    }
+        }
+
+        .collections{
+            color: white;
+            font-family: 'Jost', sans-serif;
+            font-size: 40px;
+            font-weight: 800;
+            letter-spacing: 0.5px;
+            transform: translate(360px,60px);
+        }
+
+        .eightbox{
+            width: 69%;
+            height: 790px;
+            transform: translate(340px,100px);
+            display: flex;
+            flex-wrap: wrap;
+            .box{
+                background-color: #121117;
+                cursor: pointer;
+                width: 21%;
+                height: 330px;
+                margin-left: 30px;
+                border-radius: 10px;
+                img{
+                    width: 82%;
+                    height: 160px;
+                    border-radius: 15px;
+                    transform: translate(25px,20px);
+                }
+                // #4528DC
+                .krujok{
+                    border: 3px solid #76767c8e;
+                    width: 75px;
+                    height: 75px;
+                    border-radius: 38px;
+                    transform: translate(100px,-15px);
+                    &:hover{
+                        box-shadow: rgba(72, 40, 255) 0px 0px 40px -5px;
+                    }
+                    img{
+                        border-radius: 30px;
+                        width: 62px;
+                        height: 62px;
+                       transform: translate(4px,3px);
+                    }
+                }
+            }
+        }
+}
+////////////////////////////////////Page5
+

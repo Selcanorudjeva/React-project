@@ -1,0 +1,50 @@
+nav{
+    background-color: #FCB800;
+    height: 90px;
+}
+nav .navbar-brand{
+    color: #023047;
+    font-size: 50px;
+    font-weight: 700;
+}
+nav .navbar-brand span{
+    color: white;
+}
+.container-fluid{
+    display: flex;
+    width: 70%;
+    justify-content: space-around !important;
+    transform: translate(0px,-10px);
+}
+.formmain {
+    width: 57%;
+}
+.form-control{
+    border-radius: 1px;
+}
+.dropdown{
+    transform: translate(-60px,0px);
+}
+.dropdown .dropdown-menu{
+        height: 300px;
+    overflow-y: scroll;
+}
+.searchbut{
+    background-color: #023047;
+    color: white;
+    border-radius: 0.5px;
+    transform: translate(-70px,0px);
+}
+.btn-check:focus+.btn, .btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 0 rgb(13 110 253 / 25%);
+}
+.trikonki i{
+margin-right: 20px;
+font-size: 25px;
+}
+
+.trikonki i span{
+    font-size: 15px;
+    transform: translate(0px,-50px);
+}

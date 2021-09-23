@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap" rel="stylesheet">
+    <title>React App</title>
+    <style>
+      .box h4{
+        color: white;
+        font-size: 23px;
+        transform: translate(65px,0px);
+      }
+      .box .ec{
+        color: rgb(95, 93, 93);
+        padding-left: 110px;
+      }
+      .box{
+        transition: 1s;
+      }
+      .box:hover{
+        transition: 1s;
+        transform: translate(0px,-20px);
+         box-shadow: rgba(72, 40, 255) 0px 0px 40px -5px;
+      }
+      .page-5{
+        width: 100%;
+        height: 700px;
+        transform: translate(0px,-90px);
+      }
+     .page-5 .item1 {
+	 color: #4526d8;
+	 font-weight: 500;
+	 font-size: 18px;
+	 display: flex;
+	 letter-spacing: 1px;
+	 transform: translate(360px, 10px);
+}
+ .page-5 .item1 .line {
+	 margin-top: 14px;
+	 margin-left: 5px;
+	 width: 3%;
+   transform: translate(0px,0px);
+	 height: 4px;
+	 background: #6b51e9;
+	 background: linear-gradient(90deg, rgba(107, 81, 233, 1) 0%, rgba(52, 42, 190, 1) 38%, rgba(159, 64, 247, 1) 66%);
+}
+.page-5 .sellers {
+	 color: white;
+	 font-family: 'Jost', sans-serif;
+	 font-size: 40px;
+	 font-weight: 800;
+	 letter-spacing: 0.5px;
+	 transform: translate(360px, 10px);
+}
+      .page-5 .karobocka{
+        transform: translate(360px,30px);
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        height: 500px;
+      }
+      .page-5 .box-4{
+        width: 18%;
+        margin-right: 25px;
+        height: 450px;
+        border-radius: 10px;
+        background-color: #121117;
+        transition: 1s;
+      }
+      .page-5  .box-4:hover{
+        cursor: pointer;
+        transition: 1s;
+        transform: translate(0px,-20px);
+         box-shadow: rgba(72, 40, 255) 0px 0px 40px -5px;
+      }
+   
+.page-5 .walking{
+  color: white;
+  transform: translate(23px,20px);
+}
+ .photograhy {
+	 color: rgb(139, 138, 138);
+	 font-size: 18px;
+	 transform: translate(23px, 30px);
+	 transition: 1s;
+}
+.photograhy span{
+  color: white;
+}
+ .photograhy:hover {
+	 transition: 1s;
+	 color: #4528dc;
+}
+ .lastline {
+	 display: flex;
+	 width: 80%;
+	 justify-content: space-between;
+	 color: white;
+	 transform: translate(23px, 40px);
+}
+ .auction {
+	 width: 250px;
+	 height: 230px;
+	 border-radius: 20px;
+	 margin-left: 25px;
+	 margin-top: 20px;
+}
+.page-5 .btnbid{
+  transform: translate(20px,50px);
+  border-radius: 30px; 
+}
+.page-5 .btnbid:hover{
+                transition: 0.5s;
+                background: rgb(69,38,216);
+                background: linear-gradient(90deg, rgba(69,38,216,1) 0%, rgba(87,42,190,1) 49%, rgba(84,10,153,1) 100%);
+                color: white;
+                border: 1px solid rgb(69,38,216);;
+ }
+.page-5 .btnload{
+  width: 9%;
+  height: 50px;
+  border-radius: 30px;
+  transform: translate(900px,40px);
+  font-weight: 650;
+  letter-spacing: 1px;
+}
+.page-5 .btnload:hover{
+                transition: 0.5s;
+                background: rgb(69,38,216);
+                background: linear-gradient(90deg, rgba(69,38,216,1) 0%, rgba(87,42,190,1) 49%, rgba(84,10,153,1) 100%);
+                color: white;
+                border: 1px solid rgb(69,38,216);;
+ }
+ .page-6{
+   width: 100%;
+   height: 700px;
+ }
+ .page-6 .posledniybox{
+   width: 90%;
+   height: 600px;
+   display: flex;
+   flex-direction: row;
+
+ }
+ .page-6 .boxpos{
+   width: 15%;
+   height: 400px;
+   margin-right: 50px;
+   transform: translate(300px,70px);
+ }
+ .page-6 .item1 {
+	 color: #4526d8;
+	 font-weight: 500;
+	 font-size: 18px;
+	 display: flex;
+	 letter-spacing: 1px;
+	 transform: translate(360px, 10px);
+}
+ .page-6 .item1 .line {
+	 margin-top: 14px;
+	 margin-left: 5px;
+	 width: 3%;
+   transform: translate(0px,0px);
+	 height: 4px;
+	 background: #6b51e9;
+	 background: linear-gradient(90deg, rgba(107, 81, 233, 1) 0%, rgba(52, 42, 190, 1) 38%, rgba(159, 64, 247, 1) 66%);
+}
+.page-6 .sellers {
+	 color: white;
+	 font-family: 'Jost', sans-serif;
+	 font-size: 40px;
+	 font-weight: 800;
+	 letter-spacing: 0.5px;
+	 transform: translate(360px, 10px);
+}
+.page-6 .boxpos i{
+  color: rgb(107,81,233);
+  font-size: 60px;
+  transform: translate(70px,0px);
+}
+.page-6 .txt-wallet{
+ color: white;
+ transform: translate(70px,20px);
+}
+.page-6 .txt-once{
+  color: rgb(163, 163, 163);
+  font-size: 17px;
+  width: 100%;
+  transform: translate(70px,30px);
+}
+.footer{
+  width: 100%;
+  height: 500px;
+  background-color: #121117;
+}
+.footer .obsi{
+  display: flex;
+  flex-direction: row;
+  width: 73%;
+  transform: translate(260px,0px);
+}
+.footer .qutu{
+  width: 25%;
+  height: 400px;
+  margin-right: 20px;
+}
+.footer .qutu .footer-title{
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.footer .qutu ul li{
+  list-style: none;
+  margin-top: 8px;
+  margin-left: -30px;
+}
+.footer .qutu ul li a{
+  color: white;
+  text-decoration: none;
+}
+.footer input{
+  background-color: #191919;
+  border: none;
+  border-radius: 10px;
+  width: 70%;
+  text-indent: 20px;
+  height: 45px;
+}
+.footer .plane{
+  border:none;
+  background: rgb(107,81,233);
+background: linear-gradient(90deg, rgba(107,81,233,1) 0%, rgba(52,42,190,1) 38%, rgba(159,64,247,1) 66%);
+color: white;
+width: 18%;
+height: 45px;
+border-radius:20px 0px 0px 20px;
+transform: translate(-30px,0px);
+}
+.footer .linenew{
+  width: 70%;
+  background-color: whitesmoke;
+  height: 1px;
+  transform: translate(280px,0px);
+}
+.footer .txtt{
+  width: 70%;
+  display: flex;
+      justify-content: space-between;
+      color: white;
+      transform: translate(280px,40px);
+}
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  
+</body>
+</html>
